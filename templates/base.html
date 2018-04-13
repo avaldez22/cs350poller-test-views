@@ -8,7 +8,10 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{% static 'bootstrap-4.0.0/css/bootstrap.min.css' %}">
-
+        
+		<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}"/>
+		
+		
         <!-- CS350 LAB 9: insert link reference on the next line. 
             (INSTEAD of in polls/templates/polls/index.html)
         --> 
@@ -19,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1><a href="{% url 'home' %}" class="btn btn-link btn-lg btn-default"><h1>Polls</h1></a></h1>
+                    <h1><a href="{% url 'home' %}" class="btn btn-link btn-lg btn-default"><h1>LAB9 Polls</h1></a></h1>
                 </div>
             </div>
             <div class="row">
